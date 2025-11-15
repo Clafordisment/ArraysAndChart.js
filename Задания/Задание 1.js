@@ -1,6 +1,6 @@
 //Задание 1. Сгенерировать массив из случайных чисел от 1 до 100 и отфильтровать из них с помощью функции простые числа
 
-/* let showOriginal = true; 
+let showOriginal = true; 
 
 let someArr = Array.from({ length: 20 },
     () => Math.floor(Math.random() * 100) + 1);
@@ -72,4 +72,4 @@ function updateChart(data, label) {
             }
         }
     });
-} */
+}
