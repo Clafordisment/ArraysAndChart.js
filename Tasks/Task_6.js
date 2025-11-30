@@ -36,7 +36,7 @@ function updateChart(data, label, originalNums = null) {
         : data.map((_, i) => `Число ${i + 1}`);
 
     myChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{
